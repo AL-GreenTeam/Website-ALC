@@ -90,7 +90,8 @@ border-radius: 50%;
         
     }
     .card #last-image{
-        width: 200%;
+        width: 100%;
+        margin-left: -50%;
     }
    
      
@@ -99,114 +100,11 @@ border-radius: 50%;
     .authors .card{
         width: 100%;
     }
+    
     .card #last-image{
         width: 100%;
+    margin-left: 0%;
     }
-   
     
 }
 
-/* footer section*/
-.footer{
-    width:100%;
-    background: #051241;
-    display:block;
-    color:white;
-    font-family:'Montserrat', sans-serif ;
-}
-.inner-footer{
-    width:95%;
-    margin: auto;
-    padding: 30px 10px;
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    justify-content: center;
-}
-.footer-items{
- width:25%;
- padding:10px 20px;
- box-sizing: border-box;
- 
-}
-h1{
-padding: 10px 0;
-text-align: left;
-font-size: 25px;
-}
-.footer-items p{
-    color: white;
-    font-size: 15px;
-    text-align: justify;
-    line-height: 30px;
-}
-h2{
-    margin:10px 0;
-    color: white;
-    font-size: 25px;
-
-}
-.border{
-    height: 2px;
-    width: 40px;
-    background:red;
-}
-ul{
-    list-style: none;
-    
-}
-ul a{
-    text-decoration: none;
-    outline: none;
-    color: white;
-    transition: 0.3s;
-}
-ul a:hover{
-    color: red;
-
-}
-.social-media{
-    width:100%;
-    text-align: center;
-    color: white;
-}
-
-.social-media a {
-    text-decoration: none;
-    text-align: center;
-
-
-}
-.social-media i{
-    height: 15px;
-    width: 15px;
-    margin: 20px 5px;
-    padding: 10px;
-    color:white;
-    border-radius: 50%;
-    border:1px solid  grey;
-    transition: 0.3s;
-
-}
-.social-media i:hover{
-background: grey;
-}
-.footer-bottom{
-    padding:10px;
-    color:white;
-    background: #051241;
-    font-size: 12px;
-    
-}
-@media screen and (max-width:1085px){
-    .footer-items{
-        width: 50%;
-
-    }
-}
-@media screen and (max-width:600px){
-    .footer-items{
-        width: 100%;
-
-    }
-}
