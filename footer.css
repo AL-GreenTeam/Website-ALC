@@ -1,0 +1,113 @@
+*margin{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+.content{
+    min-height: 100%;
+}
+.footer{
+    width:100%;
+    background: #051241;
+    display:block;
+    color:white;
+    font-family:'Montserrat', sans-serif ;
+}
+.inner-footer{
+    width:95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.footer-items{
+ width:25%;
+ padding:10px 20px;
+ box-sizing: border-box;
+ 
+}
+.footer h1{
+padding: 10px 0;
+font-size: 25px;
+color:white;
+}
+.footer-items p{
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 30px;
+}
+.footer h2{
+    margin:10px 0;
+    color: white;
+    font-size: 25px;
+
+}
+.footer .border{
+    height: 2px;
+    width: 40px;
+    background:red;
+}
+.footer ul{
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 0.5px;
+}
+.footer ul a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    transition: 0.3s;
+}
+.footer ul a:hover{
+    color: red;
+
+}
+.footer ul li{
+    margin:10px 0;
+    height:25px;
+}
+.footer li i{
+    margin-right: 20px;
+}
+.footer .social-media{
+    width:100%;
+    text-align: center;
+    color: white;
+}
+
+.footer .social-media a {
+    text-decoration: none;
+
+
+}
+.footer .social-media i{
+    height: 15px;
+    width: 15px;
+    margin: 20px 5px;
+    padding: 10px;
+    color:white;
+    
+}
+.footer .footer-bottom{
+    padding:10px;
+    color:white;
+    background: #051241;
+    font-size: 12px;
+    
+}
+@media screen and (max-width:1085px){
+    .footer-items{
+        width: 50%;
+
+    }
+}
+@media screen and (max-width:600px){
+    .footer-items{
+        width: 100%;
+
+    }
+}
