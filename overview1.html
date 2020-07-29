@@ -3,8 +3,8 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" width="100%" initial-scale="1">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
@@ -20,8 +20,9 @@
         }
     </style>
   </head>
-  <body style="background-color: #051241; color:white;margin-left: 10px;display: block;" scrolling="no" >
-    
+  <!--Style for the whole body-->
+  <body style="background-color: #051241; color:white; display:block; box-sizing: border-box;" scrolling="no" seamless="seamless">
+    <!--Navigation bar with the links to the other web pages-->
     <div class="top-container">
         <nav class="navbar">
             <a href="home.html">
@@ -33,11 +34,12 @@
 
                 <li class="sin"><a href="about.html">About</a>
                     <ul class="sub">
-                        <li><a href="lan.html">Our Learning Model</a></li>
-                        <li><a href="about.html">The ALU Impact Report</a></li>
-                        <li><a href="about.html">Faculty and Academic Leadership</a></li>
-                        <li><a href="about.html">Founding Academic Partners</a></li>
-                        <li><a href="about.html">Policies</a></li>
+                        <li><a href="Olm.html">Our Learning Model</a></li>
+                        
+                        <li><a href="Fal.html">Faculty and Academic Leadership</a></li>
+                        <br>
+                        <li><a href="ofap.html">Founding Academic Partners</a></li>
+                        <li><a href="op.html">Policies</a></li>
                     </ul>
                 </li>
                 <li class="sin"><a href="undergraduate.html">Undergraduate</a>
@@ -48,10 +50,10 @@
                         <li><a href="about.html">Academic Calendar</a></li>
                     </ul>
                 </li>
-                <li class="sin"><a href="campuses.html">Campuses</a>
+                <li class="sin"><a href="/campuses/mauritius.html">Campuses</a>
                     <ul class="sub">
-                        <li><a href="about.html">Mauritius</a></li>
-                        <li><a href="about.html">Rwanda</a></li>
+                        <li><a href="/campuses/mauritius.html">Mauritius</a></li>
+                        <li><a href="/campuses/rwanda.html">Rwanda</a></li>
                     </ul>
                 </li>
                 <li class="sin"><a href="studentlife.html">Student Life</a>
@@ -61,11 +63,8 @@
                         
                     </ul>
                 </li>
-                <li class="sin"><a href="authors.html">Authors</a>
-                    <ul class="sub">
-                        <li><a href="about.html">Overview</a></li>
-                        <li><a href="about.html">Author Profile</a></li>
-                    </ul>
+                <li class="sin"><a href="author.html">Authors</a>
+                   
                 </li>
             </ul>
             <div class="sach">
@@ -78,25 +77,16 @@
         </nav>
 
     </div>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="https://images.unsplash.com/photo-1557683304-673a23048d34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=243&q=80" alt="First slide" height="100">
-          <h1>Care to Care.</h1>
-        </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80" alt="Second slide"  height="100">
-          <h1>Care to Challenge.</h1>
-        </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=715&q=80" alt="Third slide" height="100">
-         <h1> Care to Celebrate.</h1>
-        </div>
-        </div>
-        
-      </div>
+    <!--The br element to create space before the page heading-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+   <hr>
+   
       <div>
-          <h1 style="font-size: 35px;"><strong>Overview</strong></h1>
+          <h1 style="font-size: 45px; background-color:grey; line-height: 75px;"><strong>Overview</strong></h1>
           <hr>
           <p style="text-align: justify;font-size: 20px;">When you join ALU, you don’t just join a university, you become a part of a community of lifelong 
               learners. At ALU, learning extends beyond the classroom. Whether you’re rehearsing a play for our 
@@ -121,6 +111,7 @@
 <h1 style="font-size: 35px;"><strong>Student Programs</strong></h1>
 <br>
 <br>
+<!--A 3-columned colored row with different Student Life information-->
       <div class="row" >
         <div class="col" style="background-color:lightslategray;">
         <h1>Culture Series</h1>
@@ -189,7 +180,7 @@
     </div>
     <div class="container mt-3">
        
-        <!-- Media top -->
+        
         <div class="media">
           <img src="osaretin.jpg" class="align-self-start mr-3" style="width:150px">
           <div class="media-body">
@@ -204,7 +195,7 @@
         </div>
         <br>
       
-        <!-- Media middle -->
+       
         <div class="media mt-3">
           <img src="joshila.jpg" class="align-self-center mr-3" style="width:150px">
           <div class="media-body">
@@ -224,7 +215,7 @@
               </div>
          </div>
       <br>
-        <!-- Media bottom -->
+       
         <div class="media mt-3">
           <img src="amayo.jpg" class="align-self-end mr-3" style="width:150px">
           <div class="media-body">
@@ -238,7 +229,7 @@
       </div> 
       <br>
       <br>
-      
+      <!--A flowing banner made up of different colors just before the footer-->
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -263,6 +254,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </div>
   </div>
+  <!--Footer elements together with the quick links to different pages of the website-->
   <div class="footer">
         <div class="inner-footer">
             <div class="footer-items">
@@ -277,7 +269,7 @@
                     <a href="about.html"><li>About Us</li></a>
                     <a href="undergraduate.html"><li>Undergraduate</li></a>
                     <a href="campuses.html"><li>Campuses</li></a>
-                    <a href="studentlife.html"><li>Student Life</li></a>
+                    <a href="overview1.html"><li>Student Life</li></a>
                 </ul>
                     </div>
         
