@@ -219,14 +219,13 @@ color:white;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
   background:white;
 }
 
 .writings{
-  width: 500px;
-  font-size: 20px;
+  
+  width: 550px;
+  font-size: 30px;
   font-family: 'Montserrat', sans-serif;
   color: black;
   margin-left: 80px;
@@ -244,8 +243,10 @@ color:white;
 .middle-container{
   
   background-color: #051241;
-  background-size: 1550px;
-  margin-top: 2px;
-  height: 900px;
-  background-position: bottom;
+  background-size: 550px;
+  margin-top: 90px;
+  position: relative;
+}
+.style{
+  position: static;
 }
