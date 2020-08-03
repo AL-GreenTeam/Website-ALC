@@ -141,18 +141,29 @@ nav li{
     right: 0px;
   }
 
+ h1{
+   font-weight: 300;
+ }
  
+ p{
+   font-weight: 300;
+ }
   
   h2{
-    color: #051241;
-    font-size: 25px;
+    font-size: 250%;
+    font-weight: 400;
   }
   .subhead-two, .subhead-one{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 4px;
     margin-bottom: 25px;
+    height:80px;
+    background-color:#051241;
+    color:white;
+    font-family: 'Montserrat',sans-serif; text-align: center;
+    vertical-align: middle;
   }
   
 
@@ -169,7 +180,7 @@ nav li{
     justify-content: space-evenly;
     flex-wrap: wrap;
     height: 620px;
-    width: 1000px;
+    width: 1350px;
     align-self: center;
     margin-top: 25px;
   }
@@ -180,7 +191,7 @@ nav li{
     width: 85%;
     height: 85%;
     position: absolute;
-    top: 125%;
+    top: 115%;
     left: 10%;
     border-radius: 35px;
     background-size: contain;
@@ -222,9 +233,9 @@ nav li{
   }
 
   .one, .two, .three, .four, .five, .six,.seven, .eight, .nine, .ten, .eleven{
-    width: 250px;
-    height: 150px;
-    background-size: 250px;
+    width: 330px;
+    height: 180px;
+    background-size: 350px;
     background-position: bottom;
     margin-right: 25px;
     margin-left: 25px;

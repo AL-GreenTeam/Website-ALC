@@ -8,12 +8,11 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 } 
 .container{
     max-width: 1140px;
     margin: auto;
-    position: relative;
     min-height: 1px;
 }
 .authors{
