@@ -8,12 +8,11 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 } 
 .container{
     max-width: 1140px;
     margin: auto;
-    position: relative;
     min-height: 1px;
 }
 .authors{
@@ -31,7 +30,7 @@ body{
     padding: 0px 10p5;
 }
 .authors .card .box img{
-width: 150px;
+width: 200px;
 display: block;
 margin: 10px auto; 
 border-radius: 50%;
@@ -108,3 +107,112 @@ border-radius: 50%;
     
 }
 
+/* footer section*/
+
+.footer{
+    width:100%;
+    background: #051241;
+    display:block;
+    color:white;
+    font-family:'Montserrat', sans-serif ;
+}
+.inner-footer{
+    width:95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.footer-items{
+ width:25%;
+ padding:10px 20px;
+ box-sizing: border-box;
+ 
+}
+h1{
+padding: 10px 0;
+font-size: 25px;
+}
+.footer-items p{
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 30px;
+}
+.footer-items ul{
+    padding-left: 20px;
+}
+.footer-items ul li{
+    margin: 10px;
+}
+h2{
+    margin:10px 0;
+    color: white;
+    font-size: 25px;
+
+}
+.border{
+    height: 2px;
+    width: 40px;
+    background:red;
+}
+ul{
+    list-style: none;
+    
+}
+ul a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    transition: 0.3s;
+}
+footer ul a:hover{
+    color: red;
+
+}
+.social-media{
+    width:100%;
+    text-align: center;
+    color: white;
+}
+
+.social-media a {
+    text-decoration: none;
+    text-align: center;
+
+
+}
+.social-media i{
+    width: 40px;
+    margin: 20px 5px;
+    padding: 10px;
+    color:white;
+    border-radius: 50%;
+    border:1px solid  grey;
+    transition: 0.3s;
+
+}
+.social-media i:hover{
+background: grey;
+}
+.footer-bottom{
+    padding:10px;
+    color:white;
+    background: #051241;
+    font-size: 12px;
+    
+}
+@media screen and (max-width:1085px){
+    .footer-items{
+        width: 50%;
+
+    }
+}
+@media screen and (max-width:600px){
+    .footer-items{
+        width: 100%;
+
+    }
+}
