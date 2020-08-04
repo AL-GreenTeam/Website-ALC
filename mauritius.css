@@ -230,7 +230,7 @@ ul a{
   color: white;
   transition: 0.3s;
 }
-ul a:hover{
+footer ul a:hover{
   color: red;
 
 }
