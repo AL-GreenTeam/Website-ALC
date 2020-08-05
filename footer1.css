@@ -3,7 +3,6 @@
 
 
 
-
 .body{
   
     padding:20px;
@@ -137,4 +136,23 @@ background: maroon;
     display: inline-block;
     font-size: 16px;
     margin-left: 550px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.30%;
+    padding: 8px;
+    height: 300px; 
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
