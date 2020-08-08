@@ -48,7 +48,7 @@ border-radius: 50%;
 }
 .authors .card .box h4{
      font-size: 20px;
-     font-family: open sans;
+     font-family: 'Monsterrat',sans-serif;
      margin: 20px opx 10px;
      color: #ea5e71;
      text-align: center;
@@ -57,17 +57,17 @@ border-radius: 50%;
 }
 .authors .card .box h5{
     font-size: 16px;
-    font-family: open sans;
+    font-family: 'Monsterrat',sans-serif;
     margin: 0px opx 15px;
-    color: #b9b9b9;
+    color: #0c0514;
     text-align: center;
     font-weight: 600;
    
 }
 .authors .card .box p{
     font-size: 15px;
-    font-family: open sans;
-    color: #b9b9b9;
+    font-family: 'Monsterrat',sans-serif;;
+    color: #0e0d0d;
     text-align: center;
     line-height: 24px;
     font-weight: 400;
@@ -75,7 +75,7 @@ border-radius: 50%;
 }
 .authors h1{
     font-size: 36px;
-    font-family: open sans;
+    font-family: 'Monsterrat',sans-serif;
     color: black;
     text-align: left;
     padding-bottom:60px ;
@@ -216,3 +216,5 @@ background: grey;
 
     }
 }
+
+/*maps*/
