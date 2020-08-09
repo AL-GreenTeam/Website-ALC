@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 *{
     box-sizing: border-box   ;
@@ -48,7 +47,7 @@ border-radius: 50%;
 }
 .authors .card .box h4{
      font-size: 20px;
-     font-family: 'Monsterrat',sans-serif;
+     font-family: 'Montserrat',sans-serif;
      margin: 20px opx 10px;
      color: #ea5e71;
      text-align: center;
@@ -57,7 +56,7 @@ border-radius: 50%;
 }
 .authors .card .box h5{
     font-size: 16px;
-    font-family: 'Monsterrat',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     margin: 0px opx 15px;
     color: #0c0514;
     text-align: center;
@@ -66,7 +65,7 @@ border-radius: 50%;
 }
 .authors .card .box p{
     font-size: 15px;
-    font-family: 'Monsterrat',sans-serif;;
+    font-family: 'Montserrat',sans-serif;;
     color: #0e0d0d;
     text-align: center;
     line-height: 24px;
@@ -75,7 +74,7 @@ border-radius: 50%;
 }
 .authors h1{
     font-size: 36px;
-    font-family: 'Monsterrat',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     color: black;
     text-align: left;
     padding-bottom:60px ;
