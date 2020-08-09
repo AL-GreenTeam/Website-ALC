@@ -13,9 +13,21 @@ let writings_texts = [
         "https://www.youtube.com/embed/WIH1W9z_5Fs"),
 
     new Texts(
-        "New Heading", 
-        "Another Paragrapgh to lookgood and sit still",
-        "https://www.youtube.com/embed/SZVpSAZ0iVE")
+        "Welcome to The African Leadership University",
+        "Join a group of innovative young African leaders in solving some of Africa's challenges ",
+        "https://www.youtube.com/embed/Paap6LOeGzc"),
+
+    new Texts(
+            "On Becoming ALC", 
+            "Hear from some of our Inaugural students what their experience at ALC in Mauritius has been and what this journey meant to them",
+            "https://www.youtube.com/embed/SZVpSAZ0iVE"),
+
+    new Texts(
+        "ALC Mauritius Campus",
+        "Get a preview of our campus infrastructure and the beautiful Island of Mauritius",
+        "https://www.youtube.com/embed/3ES0lurL03M")
+    
+        
 ];
 
 let slideshow_index = 0;
