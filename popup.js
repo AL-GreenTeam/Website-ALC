@@ -6,10 +6,13 @@ class Text {
     }
 }
 
-function showPopup(text) {
+function showPopup(text, shouldMoveDown = false) {
     let pop = document.getElementsByClassName("pop")[0];
     pop.style.display = "block";
 
+    //ternary operator 
+    pop.style.top = (shouldMoveDown) ? "216%" : "116%";
+    
     let popupvid = document.getElementsByClassName("popupvid")[0];
     popupvid.querySelector("iframe").setAttribute("src", text.youtube_link);
 
@@ -83,7 +86,7 @@ document.getElementById("saba").addEventListener("click", () => {
         "ALU students become part of a talented, diverse community from around the world. They are surrounded by driven, talented, and passionate classmates. They are exposed to ALU’s unique and powerful network of mentors, guest speakers, experts-in-residence, industry leaders, investors, ALU staff, and employers. They participate in events like the African Leadership Network and are provided opportunities to attend conferences where they can meet a broader set of influential people.",
         "https://www.youtube.com/embed/dm181a4_65g" );
     
-    showPopup(text);
+    showPopup(text, true);
 });
 
 document.getElementById("nane").addEventListener("click", () => {
@@ -92,7 +95,7 @@ document.getElementById("nane").addEventListener("click", () => {
         "ALU students become part of a talented, diverse community from around the world. They are surrounded by driven, talented, and passionate classmates. They are exposed to ALU’s unique and powerful network of mentors, guest speakers, experts-in-residence, industry leaders, investors, ALU staff, and employers. They participate in events like the African Leadership Network and are provided opportunities to attend conferences where they can meet a broader set of influential people.",
         "https://www.youtube.com/embed/dm181a4_65g" );
     
-    showPopup(text);
+    showPopup(text, true);
 });
 
 document.getElementById("tisa").addEventListener("click", () => {
@@ -101,7 +104,7 @@ document.getElementById("tisa").addEventListener("click", () => {
         "ALU students become part of a talented, diverse community from around the world. They are surrounded by driven, talented, and passionate classmates. They are exposed to ALU’s unique and powerful network of mentors, guest speakers, experts-in-residence, industry leaders, investors, ALU staff, and employers. They participate in events like the African Leadership Network and are provided opportunities to attend conferences where they can meet a broader set of influential people.",
         "https://www.youtube.com/embed/dm181a4_65g" );
     
-    showPopup(text);
+    showPopup(text, true);
 });
 
 document.getElementById("kumi").addEventListener("click", () => {
@@ -110,7 +113,7 @@ document.getElementById("kumi").addEventListener("click", () => {
         "ALU students become part of a talented, diverse community from around the world. They are surrounded by driven, talented, and passionate classmates. They are exposed to ALU’s unique and powerful network of mentors, guest speakers, experts-in-residence, industry leaders, investors, ALU staff, and employers. They participate in events like the African Leadership Network and are provided opportunities to attend conferences where they can meet a broader set of influential people.",
         "https://www.youtube.com/embed/dm181a4_65g" );
     
-    showPopup(text);
+    showPopup(text, true);
 });
 
 document.getElementById("kumimoja").addEventListener("click", () => {
@@ -119,5 +122,5 @@ document.getElementById("kumimoja").addEventListener("click", () => {
         "ALU students become part of a talented, diverse community from around the world. They are surrounded by driven, talented, and passionate classmates. They are exposed to ALU’s unique and powerful network of mentors, guest speakers, experts-in-residence, industry leaders, investors, ALU staff, and employers. They participate in events like the African Leadership Network and are provided opportunities to attend conferences where they can meet a broader set of influential people.",
         "https://www.youtube.com/embed/dm181a4_65g" );
     
-    showPopup(text);
+    showPopup(text, true);
 });
