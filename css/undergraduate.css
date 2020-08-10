@@ -3,17 +3,16 @@
     padding: 0;
     box-sizing: border-box;
   }
-  .navigate{
-    display: flex;
-    flex-direction: column;
-  }
-  
-  nav{
+
+  .navbar{
+    padding: 0px;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     margin-top: 10px;
+    z-index: 1;
   }
+
   nav a{
     color: black;
     background: white;
@@ -36,7 +35,10 @@
   li a:hover{
     background-color: wheat;
   }
-  
+  nav a:hover {
+    text-decoration: none;
+    color: black;
+  }
   
   .logo{
     height: 50px;
@@ -80,25 +82,25 @@
     cursor: pointer;
   }
 
-body {
 
-}
 
 .heading1 {
     
     text-align: center;
     color: white;
-    font-size: 64px;
-    font-weight: bolder;
+    font-size: 48px;
     vertical-align: middle;
-    padding-top: 50px;
     }
 
 
 .bluehead {
-background-color: #002699;
-height: 180px;
-padding-bottom: 0px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #051241;
+    color: white;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
 
 }
 
@@ -145,7 +147,7 @@ background-color: white;
     position: relative;
     left: 500px;
     width: 500px;
-    height:
+    
     padding-bottom: 50px;
 }
 
@@ -161,9 +163,9 @@ background-color: white;
     padding-bottom: 50px;
 }
 
-.degreeprograms button{
+/*.degreeprograms button{
     alignment: center;
-}
+}*/
 .internships {
         background-color:rgb(232, 242, 247);
         padding-top: 50px;
@@ -244,20 +246,20 @@ h5 {
 
 .tile1 {
     position: relative;
-    left:  ;
-    top:    ;
+    /*left:  ;
+    top:    ;*/
 }
 
 .tile1 {
     position: relative;
-    left:  ;
-    top:    ;
+    /*left:  ;
+    top:    ;*/
 }
 
 .tile1 {
     position: relative;
-    left:  ;
-    top:    ;
+    /*left:  ;
+    top:    ;*/
 }
 
 .relative {
@@ -282,11 +284,11 @@ h5 {
 }
 
 
-
+/*
 #pictorialpic {
 
 }
-/*
+
 #corepic {
     padding-left: 40px;
    padding-right: 40px;
@@ -316,7 +318,7 @@ h5 {
 }
 .row {
     margin: 0px 150px 0px 150px;
-    padding-top:;
+  
 }
 
 /*.col-sm-3 {
@@ -348,7 +350,7 @@ h5 {
     color: white;
   }
 
-}
+
 
 
 .fa:hover {

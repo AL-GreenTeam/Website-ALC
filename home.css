@@ -173,6 +173,7 @@ nav li{
     margin-top: 2px;
     height: 700px;
     background-position: bottom;
+    overflow-x: hidden;
   }
 
   .adv, .diff{
@@ -189,9 +190,9 @@ nav li{
     display: none;
     background-image: url("blurbookshelf.jpg");
     width: 85%;
-    height: 85%;
+    height: 78%;
     position: absolute;
-    top: 125%;
+    top: 116%;
     left: 10%;
     border-radius: 35px;
     background-size: contain;
