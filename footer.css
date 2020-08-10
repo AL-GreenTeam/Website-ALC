@@ -1,20 +1,12 @@
-
-*margin{
-    margin: 0;
-    padding:0;
-    font-family: 'Montserrat', sans-serif;
-}
-.content{
-    min-height: 100%;
-}
+/*footer code*/
 .footer{
     width:100%;
     background: #051241;
     display:block;
     color:white;
     font-family:'Montserrat', sans-serif ;
-}
-.inner-footer{
+  }
+  .inner-footer{
     width:95%;
     margin: auto;
     padding: 30px 10px;
@@ -22,217 +14,110 @@
     flex-wrap: wrap;
     box-sizing: border-box;
     justify-content: center;
-}
-.footer-items{
- width:25%;
- padding:10px 20px;
- box-sizing: border-box;
- 
-}
-.footer h1{
-padding: 10px 0;
-font-size: 25px;
-color:white;
-}
-.footer-items p{
+  }
+  .footer-items{
+  width:25%;
+  padding:1px 50px 0px 0px;
+  box-sizing: border-box;
+  
+  }
+  .footer h1{
+  padding: 10px 0;
+  font-size: 25px;
+  color:white;
+  }
+  .footer-items p{
     color: white;
     font-size: 15px;
     text-align: justify;
     line-height: 30px;
-}
-.footer h2{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .footer h2{
     margin:10px 0;
     color: white;
     font-size: 25px;
-
-}
-.footer .border{
+    padding-left: 0px;
+  
+  }
+   .footer .border{
     height: 2px;
     width: 40px;
-    background:red;
-}
-.footer ul{
+    border: 1px solid red!important;;
+  }
+  .footer ul{
     list-style: none;
     font-size: 15px;
     color: white;
     letter-spacing: 0.5px;
-}
-.footer ul a{
+    width: 350px;
+    padding-left: 40px;
+  }
+  .footer ul a{
     text-decoration: none;
     outline: none;
     color: white;
     transition: 0.3s;
-}
-.footer ul a:hover{
+  }
+  .footer ul a:hover{
     color: red;
-
-}
-.footer ul li{
+  
+  }
+  .footer ul li{
     margin:10px 0;
     height:25px;
-}
-.footer li i{
+    color: white;
+    font-family: montserrat,sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+  }
+  .footer li i{
     margin-right: 20px;
-}
-.footer .social-media{
+  }
+  .social-media{
     width:100%;
     text-align: center;
     color: white;
-}
-
-.footer .social-media a {
+  }
+  
+  .social-media a {
     text-decoration: none;
-
-
-}
-.footer .social-media i{
-    height: 15px;
-    width: 15px;
-    margin: 20px 5px;
-    padding: 10px;
-    color:white;
-    
-}
-.footer .footer-bottom{
-    padding:10px;
-    color:white;
-    background: #051241;
-    font-size: 12px;
-    
-}
-@media screen and (max-width:1085px){
-    .footer-items{
-        width: 50%;
-
-    }
-}
-@media screen and (max-width:600px){
-    .footer-items{
-        width: 100%;
-
-    }
-
-iframe {overflow: hidden;}
-
-
-.body{
-    width:100%;
-    padding:20px;
-    text-align: justify;
-    box-sizing:border-box;
-    font-size:18px;
-    line-height: 40px;
-    font-family: 'Montserrat', sans-serif;
-}
-.footer{
-    width:100%;
-    background: #051241;
-    display:block;
-    color:white;
-    font-family:'Montserrat', sans-serif ;
-}
-.inner-footer{
-    width:95%;
-    margin: auto;
-    padding: 30px 10px;
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    justify-content: center;
-}
-.footer-items{
- width:25%;
- padding:10px 20px;
- box-sizing: border-box;
- 
-}
-h1{
-padding: 10px 0;
-font-size: 25px;
-color:white;
-}
-.footer-items p{
-    color: white;
-    font-size: 15px;
-    text-align: justify;
-    line-height: 30px;
-}
-h2{
-    margin:10px 0;
-    color: white;
-    font-size: 25px;
-
-}
-.border{
-    height: 2px;
-    width: 40px;
-    background:red;
-}
-ul{
-    list-style: none;
-    font-size: 15px;
-    color: white;
-    letter-spacing: 0.5px;
-}
-ul a{
-    text-decoration: none;
-    outline: none;
-    color: white;
-    transition: 0.3s;
-}
-ul a:hover{
-    color: red;
-
-}
-ul li{
-    margin:10px 0;
-    height:25px;
-}
-li i{
-    margin-right: 20px;
-}
-.social-media{
-    width:100%;
-    text-align: center;
-    color: white;
-}
-
-.social-media a {
-    text-decoration: none;
-
-
-}
-.social-media i{
-    height: 15px;
-    width: 15px;
+  
+  
+  }
+  .social-media i{
+    height: 35px;
+    width: 35px;
     margin: 20px 5px;
     padding: 10px;
     color:white;
     border-radius: 50%;
     border:1px solid  grey;
     transition: 0.3s;
-
-}
-.social-media i:hover{
-background: grey;
-}
-.footer-bottom{
+  
+  }
+  .social-media i:hover{
+  background: grey;
+  }
+  .footer-bottom{
     padding:10px;
     color:white;
     background: #051241;
     font-size: 12px;
     
-}
-@media screen and (max-width:1085px){
+  }
+  @media screen and (max-width:1085px){
     .footer-items{
         width: 50%;
-
+  
     }
-}
-@media screen and (max-width:600px){
+  }
+  @media screen and (max-width:600px){
     .footer-items{
         width: 100%;
-
+  
     }
-
-}
+  }
+  
+  
