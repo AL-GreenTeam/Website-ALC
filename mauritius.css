@@ -278,3 +278,44 @@ background: grey;
 
   }
 }
+/**/
+:root{
+  --primary:#ddd;
+  --dark :#333;
+  --light: #fff;
+  --shadow : 0 1px 5px rgba(104,104,104.0.8);
+
+}
+
+
+.wrapper{
+  display: grid;
+}
+img{
+  max-width: 100%;
+  gap: 20px;
+}
+
+.info h2{
+  color: #333;
+}
+.info{
+box-shadow: var(--shadow);
+display: grid;
+gap: 20px;
+grid-template-columns: repeat(2,1fr);
+padding: 3rem;
+    
+}
+@media(max-width: 700px){
+  .info{
+      grid-template-columns: 1fr;
+      gap: 3px;
+      padding: 1rem;
+  }
+  .info h2{
+  
+    padding-top: 0px;
+  }
+}
+
