@@ -201,7 +201,7 @@ nav li{
     top: 116%;
     left: 10%;
     border-radius: 35px;
-    background-size: contain;
+    background-size: cover;
     background-position: bottom;
   }
   .popup{
@@ -252,12 +252,7 @@ nav li{
     font-family: 'Montserrat', sans-serif;
     color: white;
   }
-  .eleven{
-    background-image: url("seanwater.JPG");
-  }
-  .six{
-    background-image: url("IMG_20200611_142845.jpg");
-  }
+
 
   .left {
     width: 50px;
