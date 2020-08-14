@@ -107,17 +107,51 @@
     font-size: 12px;
     
   }
-  @media screen and (max-width:1085px){
-    .footer-items{
-        width: 50%;
-  
-    }
-  }
   @media screen and (max-width:600px){
     .footer-items{
         width: 100%;
-  
+    }
+    
+    nav {
+      flex-wrap: wrap;
+    }
+    
+    nav li {
+      z-index: 1;
+    }
+    
+    nav ul {
+      flex-wrap: wrap;
+      padding: 0px;
+    }
+    
+    .sub {
+      position:relative;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      background-color: grey;
+    }
+    
+    .middle-container {
+      background-size: 120%;
+      height: 100%;
+    }
+    
+    .body-container {
+      flex-wrap: wrap;
+    }
+    
+    .left, .right {
+      display: none;
+    }
+    
+    .adv, .diff {
+      width: 400px;
+      height: 100%;
+    }
+    
+    .one, .two, .three, .four, .five, .six,.seven, .eight, .nine, .ten, .eleven {
+      margin-top: 5px;
+      margin-bottom: 10px;
     }
   }
-  
-  
