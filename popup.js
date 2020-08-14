@@ -83,8 +83,8 @@ document.getElementById("sita").addEventListener("click", () => {
 document.getElementById("saba").addEventListener("click", () => {
     let text = new Text(
         "Preparation For an Uncertain World",
-        "ALU students become part of a talented, diverse community from around the world. They are surrounded by driven, talented, and passionate classmates. They are exposed to ALU’s unique and powerful network of mentors, guest speakers, experts-in-residence, industry leaders, investors, ALU staff, and employers. They participate in events like the African Leadership Network and are provided opportunities to attend conferences where they can meet a broader set of influential people.",
-        "https://www.youtube.com/embed/dm181a4_65g" );
+        "The world is rapidly changing. Huge advances in artificial intelligence, nanotechnology, robotics, digital biology, and 3D manufacturing are altering the world in unanticipated ways. Traditional university graduates are rarely exposed to this information, let alone given the skills to thrive in volatile, complex, and uncertain environments. ALU graduates develop a high-level understanding of these technologies and their implications, and they practice operating in a world that is full of ambiguity, complexity, and uncertainty.",
+        "https://www.youtube.com/embed/ntoaCkn8ye8" );
     
     showPopup(text, true);
 });
@@ -92,8 +92,8 @@ document.getElementById("saba").addEventListener("click", () => {
 document.getElementById("nane").addEventListener("click", () => {
     let text = new Text(
         "Alignment With Passion",
-        "ALU students become part of a talented, diverse community from around the world. They are surrounded by driven, talented, and passionate classmates. They are exposed to ALU’s unique and powerful network of mentors, guest speakers, experts-in-residence, industry leaders, investors, ALU staff, and employers. They participate in events like the African Leadership Network and are provided opportunities to attend conferences where they can meet a broader set of influential people.",
-        "https://www.youtube.com/embed/dm181a4_65g" );
+        "Traditional universities rarely engage students in deep self-inquiry and self-discovery. At ALU, students have recurring opportunities to assess themselves and receive feedback from others. They have the opportunity to learn more about who they are, their strengths and weaknesses, and their passions and interests. They gain significant exposure to the greatest challenges in our world and the passionate leaders and mentors who are working on them. This repeated exposure allows students to become inspired by what is possible and learn which problems they are uniquely passionate about solving.",
+        "https://www.youtube.com/embed/kM03K2HM_cU" );
     
     showPopup(text, true);
 });
@@ -101,8 +101,8 @@ document.getElementById("nane").addEventListener("click", () => {
 document.getElementById("tisa").addEventListener("click", () => {
     let text = new Text(
         "Foundational Knowledge and Post-University Preparedness",
-        "ALU students become part of a talented, diverse community from around the world. They are surrounded by driven, talented, and passionate classmates. They are exposed to ALU’s unique and powerful network of mentors, guest speakers, experts-in-residence, industry leaders, investors, ALU staff, and employers. They participate in events like the African Leadership Network and are provided opportunities to attend conferences where they can meet a broader set of influential people.",
-        "https://www.youtube.com/embed/dm181a4_65g" );
+        "Many of today’s universities are structured as “knowledge enterprises” rather than “skills enterprises.” As such, many do not focus on equipping students with the actual skills that employers seek. Recent studies indicate that 90% of employers believe that traditional university graduates are unprepared for the workplace. ALU students are prepared with the skills that are attractive to a wide range of potential employers. They are prepared to become innovators and entrepreneurs and to apply their unique perspectives and abilities to government, corporate, NGO, and nonprofit sectors.",
+        "https://www.youtube.com/embed/4rYu-HUFlWE" );
     
     showPopup(text, true);
 });
@@ -110,8 +110,8 @@ document.getElementById("tisa").addEventListener("click", () => {
 document.getElementById("kumi").addEventListener("click", () => {
     let text = new Text(
         "Missions Not Majors",
-        "ALU students become part of a talented, diverse community from around the world. They are surrounded by driven, talented, and passionate classmates. They are exposed to ALU’s unique and powerful network of mentors, guest speakers, experts-in-residence, industry leaders, investors, ALU staff, and employers. They participate in events like the African Leadership Network and are provided opportunities to attend conferences where they can meet a broader set of influential people.",
-        "https://www.youtube.com/embed/dm181a4_65g" );
+        "At traditional universities, students declare a major in a single academic discipline. Not so at ALU: rather, students declare a “mission” related to problems they want to solve. Instead of dedicating themselves to memorizing a specific body of facts and figures, ALU students dedicate themselves to solving real problems in the real world and acquire the skills and methods they need to solve them. They drive their own personalized educational journeys under the guidance of mentors and curate their learning experiences around the problems they want to solve.",
+        "https://www.youtube.com/embed/mAN_r1K02uw" );
     
     showPopup(text, true);
 });
@@ -119,8 +119,8 @@ document.getElementById("kumi").addEventListener("click", () => {
 document.getElementById("kumimoja").addEventListener("click", () => {
     let text = new Text(
         "Institutional Rationality",
-        "ALU students become part of a talented, diverse community from around the world. They are surrounded by driven, talented, and passionate classmates. They are exposed to ALU’s unique and powerful network of mentors, guest speakers, experts-in-residence, industry leaders, investors, ALU staff, and employers. They participate in events like the African Leadership Network and are provided opportunities to attend conferences where they can meet a broader set of influential people.",
-        "https://www.youtube.com/embed/dm181a4_65g" );
+        "The goal of traditional universities is to transfer knowledge to the next generation. ALU exists to create leaders: catalysts for change who will navigate a rapidly-evolving world. ALU graduates understand complex systems and are not boxed in by traditional disciplinary lines. ALU exists to develop leaders. Education is simply the means through which these leaders are developed—it is not the end in and of itself.",
+        "https://www.youtube.com/embed/UjesfMeekJs" );
     
     showPopup(text, true);
 });
