@@ -103,8 +103,8 @@ color: #333;
 }
 .slide:nth-child(4){
     background: url('./mauritius/mauritius4.jpg')   top/cover;
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .slide:nth-child(5){
     background: url('./mauritius/mauritius5.jpg')   top/cover;
